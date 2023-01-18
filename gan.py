@@ -88,7 +88,7 @@ print(x_train.shape[0])
 x_train=(x_train.astype(np.float32))/255
 x_train=x_train.reshape(x_train.shape[0],-1)
 
-#create generator and generator modle
+#create generator and discriminator modle
 generator=create_generator_modle()
 discriminator=create_discriminator_modle()
 
